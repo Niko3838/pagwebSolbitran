@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title> Formulario</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/solbitran.img" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+  </head>
+  <body>
+    
+  <div class="card-body" style="background-color: rgb(25, 100, 42);" >
+    <br>
+  </div>
+          
+    <div class="container">
+      <!-- Content here -->
+        <!-------------------------------------------------------------------------->
+        <!--barra de Menu-->
+        <br><br>
+        <table class="container">
+          <tr>
+            <th><img src="img/solbitran.img" alt="" height="80px" style="margin-left: 1px;"></th> 
+            <th ><h6>SOLBITRAN - CENTRO DE NEGOCIOS <br> NIT : 91.202.501-3 <br> TELEFONO : 3155800819 <br> IPIALES - COLOMBIA</h6> </td>
+          </tr>
+        </table>
+         <hr class="hr" />
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="index.html">Inicio</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a href="Formulario.html">Formulario</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  <a href="Oficinas.html">Oficinas y Arriendos</a>
+                </li>
+              </ol>
+            </nav>
+            <div class="input-group" style="width: 200px; height: 30px;">
+              <div class="form-outline">
+                <input type="search" id="form1" class="form-control" />
+                <label class="form-label" for="form1">Buscar</label>
+              </div>
+              <button type="button" class="btn btn-primary">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </nav>
+        <hr class="hr" />
+    </div>
+    
+   
+    <div class="container">
+      <div class="row">
+        <!--**********************-->
+        <!--Datos del conductoe-->
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body" style="background-color: rgb(236, 236, 236 );">
+              <img src="img/logo_persona.jpg" alt="" width="120px"><br><br>
+              <h5 class="card-title"> Datos del Conductor</h5>
+              <table>
+                <tr>
+                  <td>
+                    <div class="form-outline">
+                      <input type="text" id="identificacion" class="form-control" size="25" required/>
+                      <label class="form-label" for="identificacion">Identificación</label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-outline">
+                      <input type="number" id="celular" class="form-control" size="20" required/>
+                      <label class="form-label" for="celular">Celular</label>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+              <table>
+                <tr>
+                  <td>
+                    <div class="form-outline">
+                      <input type="text" id="nombres" class="form-control" size="51" required/>
+                      <label class="form-label" for="nombres">Nombre y Apellido</label>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+              <table>
+                <tr>
+                  <td>
+                    <div class="form-outline">
+                      <input type="email" id="gmail" class="form-control" size="32" required/>
+                      <label class="form-label" for="gmail">Gmail</label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-outline">
+                      <input type="text" id="edad" class="form-control" size="13"/>
+                      <label class="form-label" for="edad">Edad</label>
+                    </div>
+                  </td>
+                </tr>
+                
+              </table>
+              <table>
+                <tr><br>
+                  <td  colspan="1">
+                    <p >Genero &nbsp;&nbsp;&nbsp;</p>
+                  </td>
+                  <td class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="servicio" value="option1" />
+                    <label class="form-check-label" for="servicio">Masculino</label>         
+                  </td>
+                  <td class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="servicio" value="option1" />
+                    <label class="form-check-label" for="servicio">Femenino</label>         
+                  </td>  
+                </tr>
+              </table>
+              <br><br>
+            </div>
+          </div>
+          
+        </div>
+        <!--******************************-->
+        <!--carroo-->
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body" style="background-color: rgb(236, 236, 236 );">
+              <img src="img/logocarro.jpg" alt="" width="155px">
+              <h5 class="card-title">Datos del Vehiculo</h5>
+              <table>
+                <tr>
+                  <td>
+                    <div class="form-outline">
+                      <input type="text" id="placa" class="form-control" size="20" required/>
+                      <label class="form-label" for="placa">Placa</label>
+                    </div>
+                  </td>
+                  
+                  <td>
+                    <div class="form-outline">
+                      <input type="text" id="modelo" class="form-control" size="20" required/>
+                      <label class="form-label" for="modelo">Modelo</label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-outline">
+                      <input type="text" id="linea" class="form-control" size="20" required/>
+                      <label class="form-label" for="modelo">Linea</label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <div class="form-outline">
+                      <input type="text" id="color" class="form-control" size="20" required/>
+                      <label class="form-label" for="color">Color</label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td  colspan="1">
+                    <p >Servicio </p>
+                  </td>
+                  <td class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="servicio" value="option1" />
+                    <label class="form-check-label" for="servicio">Particular</label>         
+                  </td>
+                  <td> 
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="servicio" value="option2" />
+                    <label class="form-check-label" for="servicio"> Público</label>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="form-outline">
+                      <input type="text" id="tipocarroceria" class="form-control" size="20" required/>
+                      <label class="form-label" for="tipocarroceria">Tipo de Carroceria</label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-outline">
+                      <input type="text" id="combustible" class="form-control" size="20" required/>
+                      <label class="form-label" for="combustible">Combustible</label>
+                    </div>
+                  </td>
+                </tr>                              
+              </table>
+              <br>
+              <label class="form-label" for="customRange2">Cilindraje</label>
+              <div class="range">
+                <input type="range" class="form-range" min="1000" max="10000" id="customRange2" />
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <!--*******************-->
+    <!--Registro-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="card" style="background-color: rgb(236, 236, 236 );">
+            <div class="card-body">
+              <img src="img/logoformulario.jpg" alt="" width="155px">
+              <h5 class="card-title">Registro de Actividad</h5>
+              <table>
+                <tr>
+                  <td  colspan="1">
+                    <p >Entrada &nbsp;</p>
+                  </td>
+                  <td>
+                    <div class="form-outline">
+                      <input type="datetime-local" id="fechain" class="form-control" size="20" required/>
+                      <label class="form-label" for="fechain"></label>
+                    </div>
+                  </td>
+                  <td>  &nbsp; &nbsp; &nbsp;Peso (kg) &nbsp;</td>
+                  <td>
+                    <div class="form-outline">
+                      <input type="number" id="pesoin" class="form-control" size="20" required/>
+                      <label class="form-label" for="pesoin"></label> 
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td  colspan="1">
+                    <p>Salida &nbsp;</p>
+                  </td>
+                  <td>
+                    <div class="form-outline">
+                      <input type="datetime-local" id="fechaout" class="form-control" size="20" required/>
+                      <label class="form-label" for="fechaout"></label>
+                    </div>
+                  </td>
+                  <td>  &nbsp; &nbsp; &nbsp;Peso (kg) &nbsp;</td>
+                  <td>
+                    <div class="form-outline">
+                      <input type="number" id="pesoout" class="form-control" size="20" required/>
+                      <label class="form-label" for="pesoout"></label> 
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/solbitran.img" alt="" width="440px"><br><br>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <br><br>
+
+    <div align="center">
+      <a class="btn btn-primary,btn btn-success btn-rounded" type="submit" href="index.html" role="button">Inicio</a>
+      <a class="btn btn-primary,btn btn-success btn-rounded" type="submit" href="Formulario.html" role="button">Formulario</a>
+      <a class="btn btn-primary,btn btn-success btn-rounded" type="submit" href="Oficinas.html" role="button">Oficinas y Arriendos</a>
+      <button type="button" class="btn btn-primary btn-floating" onclick="window.print()"><i class="fas fa-download"></i></button>
+    </div>
+    <br><br>
+
+    <div class="card-body" style="background-color: rgb(25, 100, 42);" >
+      <br>
+      <h6 align="center" style="color: azure;">SOLBITRAN <br>
+        COWORKING Y CENTRO DE NEGOCIOS EN IPIALES, COLOMBIA <br> DIRECCION <br> Cr 1. Norte 3E- 330 Av. Panamericana, Sector los Chilcos.</h6>
+      <div align="center">
+        <br>
+        <a class="btn text-white" style="background-color: #3b5998;" href="https://www.facebook.com/people/Solbitran/100066842094896/" role="button">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="btn text-white" style="background-color: #ac2bac;" href="#!" role="button">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a class="btn text-white" style="background-color: #dd4b39;" href="https://solbitran.com/" role="button">
+          <i class="fab fa-google"></i>
+        </a>
+        <a class="btn text-white" style="background-color: #25d366;" href="https://api.whatsapp.com/send?phone=573155800819" role="button">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <br><br>
+      </div>
+    </div>
+
+</div>
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
